@@ -11,3 +11,4 @@ This repository is a personal collection of classical algorithms. It will be con
 * [Mathematical algorithms](/math)
 	* Factorial
 	* Prime factorization
+	* Fibonacci numbers
