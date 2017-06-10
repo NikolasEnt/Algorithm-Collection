@@ -12,3 +12,4 @@ This repository is a personal collection of classical algorithms. It will be con
 	* Factorial
 	* Prime factorization
 	* Fibonacci numbers
+	* Euclid's GCD Algorithm
