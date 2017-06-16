@@ -7,6 +7,8 @@ This repository is a personal collection of classical algorithms. It will be con
 * [Sorting](/sorting)
 	* Bubble sort
 	* Insertion sort
+	* Selection sort
+	* Shell sort
 
 * [Mathematical algorithms](/math)
 	* Factorial
