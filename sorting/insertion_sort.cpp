@@ -13,14 +13,24 @@ void print_arr(int* a, int N){
 void insertionSort(int *a, const int N){
 	int j, tmp;
 	int counter = 0; // Count number of the loop executions
-	for (int i = 1; i < N; i++) {
-		j = i;
-		while (j > 0 && a[j-1] > a[j]) { // Use "<" for descending order
-			tmp = a[j-1]; // Swap a[j-1] and a[j]
-			a[j-1] = a[j];
+	for (int i = N-1; i > 0; i--){ // One loop like bubble sort
+		if (a[i-1] > a[i]){
+			tmp = a[i-1]; // Swap a[i-1] and a[i]
+			a[i-1] = a[i];
+			a[i] = tmp;
+		}
+		counter++;
+	}
+	if (N > 2) {
+		for (int i = 2; i < N; i++){
+			j = i;
+			tmp = a[i];
+			while (tmp < a[j-1] && j > 0){  // Find position for insert
+				a[j] = a[j-1];
+				j--;
+				counter++;
+			}
 			a[j] = tmp;
-			j--;
-			counter++;
 		}
 	}
 	cout << "Sorted! ";
