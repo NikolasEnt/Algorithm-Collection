@@ -23,7 +23,7 @@ Complexity: О(N^2) - always
 
 Memory usage: O(1)
 
-## Shell sort](/sorting/Shell_sort.cpp)
+## [Shell sort](/sorting/Shell_sort.cpp)
 
 The presented realization is based on insertion sort. The algorithm starts by sorting pairs of elements far apart from each other, then reduce the gap between elements to be compared on each iteration. The algorithm is unstable. Computational complexity depends on the gap sequence. For the given [...,40,13,4,1]: 
 

@@ -28,7 +28,7 @@ int main(){
 	cout << "Enter N:" << endl;
 	cin >> n;
 	if (n < 0 || n > NMAX){
-		cout << "N should e in [0, 93];" << endl;
+		cout << "N should be in [0, 93];" << endl;
 	}
 	else {
 		cout << "Recurrent algorithm: F(" << n << ") = " << fibRecur(n) << endl;
