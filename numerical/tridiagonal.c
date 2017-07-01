@@ -8,7 +8,7 @@
 
 #define t0 0.5 // Start time t
 #define tN 1.0 // End time t
-#define Nmax 20 // Number of steps
+#define Nmax 200 // Number of steps
 double tau;
 
 double A(int i) {
@@ -20,7 +20,7 @@ double B(int i) {
 }
 
 double F(int i) {
-	double x = tau * i + t0;;
+	double x = tau * i + t0;
 	return -x * x;
 }
 

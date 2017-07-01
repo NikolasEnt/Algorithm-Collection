@@ -17,4 +17,6 @@ This repository is a personal collection of classical algorithms. It will be con
 	* Euclid's GCD Algorithm
 
 * [Numerical methods](/numerical)
+	* The Fixed-point iteration
 	* Tridiagonal matrix algorithm
+
