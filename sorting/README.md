@@ -30,3 +30,11 @@ The presented realization is based on insertion sort. The algorithm starts by so
 Complexity: О(N^3/2)
 
 Memory usage: O(1)
+
+## [Merge sort](/sorting/Merge_sort.cpp)
+
+Merge sort is a divide and conquer stable sorting algorithm that was invented by John von Neumann. It divides the input array into two halves, calls itself for the two halves and finally merges the two sorted halves. The merge(a, l, r, m) is the key function that assumes that parts a[l..m] and a[m+1..r] are already sorted and merges them into one sorted array.
+
+Complexity: О(N*log(N))
+
+Memory usage: O(N)
