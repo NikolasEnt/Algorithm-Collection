@@ -11,10 +11,10 @@
 
 // The function and its derivative
 double F(double x){
-    return 2*cos(x)-7*x;
+    return 2 * cos(x) - 7 * x;
 }
 double Fd(double x){
-    return -2*sin(x)-7;
+    return -2 * sin(x) - 7;
 }
 
 int main(void) {

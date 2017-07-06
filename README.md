@@ -19,6 +19,7 @@ This repository is a personal collection of classical algorithms. It will be con
 
 * [Numerical methods](/numerical)
 	* Fixed-point iteration
+	* Newton method
 	* Secant method
 	* Tridiagonal matrix algorithm
 
