@@ -15,7 +15,7 @@ Complexity: О(N^2)
 
 Memory usage: O(1)
 
-## [Selection sort](/sorting/selection_sort.cpp)
+## [Selection sort](/sorting/Selection_sort.cpp)
 
 Selection sort is a simple in-place comparison sorting algorithm. It takes elements one by one, finds the smallest element in the unsorted part of the array and, if it is smaller than the current element, swaps them. It has О(n^2) complexity, but can be useful for sorting array of big data structures, as it involves only O(N) swaps.
 
